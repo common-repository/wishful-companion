@@ -1,0 +1,1364 @@
+body a {
+	text-decoration: none;
+	box-shadow: none !important;
+}
+
+.wishful-blog-clr:after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    zoom: 1;
+    height: 0;
+}
+
+.wishful-blog-welcome-wrap.wishful-blog-wrap,
+.wishful-blog-ready-wrap.wishful-blog-wrap {
+    text-align: center;
+}
+
+.wishful-blog-wrap a {
+    color: #13aff0;
+}
+
+.wishful-blog-wrap a:hover {
+    color: #0b7cac;
+}
+
+.wishful-blog-wrap h1 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #091a29;
+    margin: 0 0 20px;
+    border: 0;
+    padding: 0;
+    clear: none;
+}
+
+.wishful-blog-welcome-wrap.wishful-blog-wrap h2,
+.wishful-blog-ready-wrap.wishful-blog-wrap h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 0;
+    color: #B2B2B2;
+}
+
+.wishful-blog-welcome-wrap.wishful-blog-wrap h1,
+.wishful-blog-ready-wrap.wishful-blog-wrap h1 {
+    font-size: 48px;
+}
+
+.wishful-blog-wrap p {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin: 0 0 24px;
+    color: #39424f;
+}
+
+/* Welcome */
+.wishful-blog-welcome-wrap.wishful-blog-wrap h1 {
+    margin-bottom: 14px;
+}
+
+.wishful-blog-welcome-wrap .wishful-blog-thumb {
+ 	margin-bottom: 16px;
+}
+
+.wishful-blog-welcome-wrap img {
+    max-width: 300px;
+    height: auto;
+}
+
+.wishful-blog-welcome-wrap .wishful-blog-wizard-setup-actions .skip-btn {
+    margin: 0;
+}
+
+.wishful-blog-wizard-setup-actions .continue i {
+    font-size: 16px;
+    height: auto;
+    margin-left: 6px;
+    vertical-align: bottom;
+}
+
+.wishful-blog-welcome-wrap a.wishful-blog-setup-footer-links {
+    display: inline-block;
+    margin-top: 19px;
+    color: #373c52;
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+.wishful-blog-welcome-wrap a.wishful-blog-setup-footer-links:hover {
+    color: #0d0f15;
+}
+
+/* Demo */
+.wishful-blog-demo-wrap {
+	display: block;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-about-description {
+	margin-top: 30px;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-about-description p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.8;
+	margin: 0;
+}
+
+.wishful-blog-demo-wrap hr {
+	margin: 32px 0 40px;
+}
+
+.wishful-blog-demo-wrap .themes {
+	margin: 0 -15px;
+	min-width: 100% !important; /* Fix the zoom image bug */
+}
+
+.wishful-blog-demo-wrap .wishful-blog-header-bar {
+	display: inline-block;
+	width: -webkit-calc(100% - 40px);
+	width: calc(100% - 40px);
+	margin: 0 0 20px;
+	padding: 0 20px;
+	background-color: #fff;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-navigation {
+	font-size: 13px;
+	float: left;
+	width: 100%;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-navigation ul {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-navigation li {
+	float: left;
+	margin: 0 15px;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-navigation li.active a,
+.wishful-blog-demo-wrap .wishful-blog-navigation li.active a:hover {
+	border-bottom: 4px solid #666;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-navigation li a {
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	border-bottom: 4px solid #fff;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-navigation li a:hover {
+	cursor: pointer;
+	color: #00a0d2;
+	border-bottom: 4px solid #fff;
+}
+
+.wishful-blog-demo-wrap .wishful-blog-search-input {
+	width: 100%;
+	margin: 10px 0;
+	-webkit-transition: 50ms border-color ease-in-out;
+	transition: 50ms border-color ease-in-out;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+}
+
+.wishful-blog-demo-wrap .theme-wrap {
+	float: left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width: 50%;
+	padding: 0 15px 30px 15px;
+}
+
+.wishful-blog-demo-wrap .theme {
+	float: none;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+.wishful-blog-is-fadeout {
+	-webkit-animation: wishful-blog-fade linear 200ms 1 forwards;
+	animation: wishful-blog-fade linear 200ms 1 forwards;
+}
+
+.wishful-blog-is-fadein {
+	-webkit-animation: wishful-blog-fade linear 200ms 1 reverse forwards;
+	animation: wishful-blog-fade linear 200ms 1 reverse forwards;
+}
+
+@-webkit-keyframes wishful-blog-fade {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes wishful-blog-fade {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.demo-import-loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 9;
+}
+
+.demo-import-loader.preview-all {
+	background: rgba(255, 255, 255, .7);
+}
+
+.demo-import-loader i {
+	font-size: 32px;
+	line-height: 32px;
+	position: relative;
+	top: 50%;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: -16px auto 0 auto;
+	text-align: center;
+}
+
+.preview-icon i.custom-loader:before {
+	content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    opacity: .8;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.2);
+    border-left-color: #000;
+    z-index: 99;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+	-ms-animation: spinner 0.6s infinite linear;
+    -webkit-animation: spinner 0.6s infinite linear;
+    -o-animation: spinner 0.6s infinite linear;
+    -moz-animation: spinner 0.6s infinite linear;
+    animation: spinner 0.6s infinite linear;
+}
+
+.preview-icon i {
+	color: #333;
+}
+
+@-webkit-keyframes spinner {
+	0% {
+	    -webkit-transform: rotate(0deg);
+	}
+	100% {
+	    -webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spinner {
+    0% {
+	    transform: rotate(0deg);
+	}
+	100% {
+	    transform: rotate(360deg);
+	}
+}
+
+#wishful-blog-demo-popup-wrap {
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#wishful-blog-demo-popup-wrap,
+#wishful-blog-demo-popup-wrap .wishful-blog-demo-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.wishful-blog-demo-popup-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.wishful-blog-demo-popup-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+
+.wishful-blog-demo-popup-container:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.wishful-blog-demo-popup-content-wrap {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	max-width: 100%;
+	z-index: 100000;
+}
+
+.wishful-blog-demo-popup-content-inner {
+	position: relative;
+	background-color: #fff;
+	width: 600px;
+	max-width: 100%;
+	margin: 0 auto;
+	z-index: 1000;
+	-webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.wishful-blog-demo-popup-content-inner a {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.wishful-blog-demo-popup-content-inner .wishful-blog-demo-popup-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #333;
+	opacity: .5;
+	font-weight: 300;
+	font-size: 40px;
+	width: 40px;
+	height: 40px;
+	line-height: 30px;
+    text-align: center;
+    z-index: 1001;
+}
+
+.wishful-blog-demo-popup-content-inner .wishful-blog-demo-popup-close:hover {
+	opacity: 1;
+}
+
+#wishful-blog-demo-popup-content h2.title {
+	position: relative;
+	font-size: 15px;
+    text-transform: uppercase;
+    padding: 25px 15px 18px;
+    margin: 0 0 20px;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+#wishful-blog-demo-popup-content h2.title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -43px;
+    display: inline-block;
+    width: 86px;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.wishful-blog-popup-text {
+	padding: 0 30px 20px;
+}
+
+.wishful-blog-popup-text p {
+	font-size: 14px;
+	margin: 0 0 15px;
+}
+
+.wishful-blog-required-plugins-wrap {
+	border-top: 3px solid #eaeaea;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.wishful-blog-required-plugins-wrap h3 {
+	margin: 0 0 15px;
+}
+
+.wishful-blog-required-plugins {
+    margin: 25px auto 0;
+}
+
+.wishful-blog-required-plugins .wishful-blog-plugin {
+	position: relative;
+	border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.wishful-blog-required-plugins .wishful-blog-plugin:last-child {
+	border-bottom: 0;
+}
+
+.wishful-blog-required-plugins h2 {
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+
+.wishful-blog-required-plugins .button {
+	float: right;
+}
+
+#wishful-blog-demo-popup-content .wishful-blog-button {
+	display: block;
+	width: 100%;
+    background-color: #13aff0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1;
+    outline: none;
+    box-shadow: none !important;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#wishful-blog-demo-popup-content .wishful-blog-button:hover {
+    background-color: #0b7cac;
+}
+
+#wp-a11y-speak-polite,
+.wishful-blog-loader,
+.wishful-blog-last,
+.final-step{
+	display: none;
+}
+
+#wishful-blog-demo-import-form ul.wishful-blog-popup-text,
+.wishful-blog-loader .wishful-blog-import-status {
+	width: 360px;
+    max-width: 100%;
+    margin: 30px auto 10px;
+}
+
+.wishful-blog-loader .wishful-blog-import-status p {
+	text-align: center;
+}
+
+.wishful-blog-loader .wishful-blog-import-status p:before {
+	display: inline-block;
+    font: 400 18px/1 dashicons;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.wishful-blog-loader .wishful-blog-import-status .wishful-blog-imported:before {
+    content: '\f147';
+    color: #79ba49;
+}
+
+.wishful-blog-loader .wishful-blog-import-status .wishful-blog-importing:before {
+	content: '\f463';
+    color: #f56e28;
+    -webkit-font-smoothing: antialiased;
+    -webkit-animation: spinner 2s infinite linear;
+    animation: spinner 2s infinite linear;
+}
+
+.wishful-blog-loader .wishful-blog-import-status .wishful-blog-importing-failed {
+    color: #ff0000;
+}
+
+.wishful-blog-loader .wishful-blog-import-status .wishful-blog-importing-failed:before {
+	content: '\f158';
+    color: #ff0000;
+}
+
+.wishful-blog-last {
+	padding: 30px;
+	text-align: center;
+}
+
+.wishful-blog-last .checkmark {
+	display: block;
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+	-webkit-animation: fill .2s ease-in-out .2s forwards, scale .1s ease-in-out .3s both;
+	animation: fill .2s ease-in-out .2s forwards, scale .1s ease-in-out .3s both;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0 0 0 #5bc142;
+	box-shadow: inset 0 0 0 #5bc142;
+	stroke-width: 2;
+	stroke: #fff;
+	stroke-miterlimit: 10;
+}
+
+.wishful-blog-last .checkmark-circle {
+	-webkit-animation: stroke .3s cubic-bezier(.65, 0, .45, 1) forwards;
+	animation: stroke .3s cubic-bezier(.65, 0, .45, 1) forwards;
+	stroke-dasharray: 166;
+	stroke-dashoffset: 166;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke: #5bc142;
+	fill: none;
+}
+
+.wishful-blog-last .checkmark-check {
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: stroke .1s cubic-bezier(.65, 0, .45, 1) .4s forwards;
+	animation: stroke .1s cubic-bezier(.65, 0, .45, 1) .4s forwards;
+	stroke-dasharray: 48;
+	stroke-dashoffset: 48;
+}
+
+@-webkit-keyframes stroke {
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes stroke {
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+@-webkit-keyframes scale {
+	0%,
+	100% {
+		-webkit-transform: none;
+		transform: none;
+	}
+	50% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}
+}
+
+@keyframes scale {
+	0%,
+	100% {
+		-webkit-transform: none;
+		transform: none;
+	}
+	50% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}
+}
+
+@-webkit-keyframes fill {
+	100% {
+		-webkit-box-shadow: inset 0 0 0 100px #5bc142;
+		box-shadow: inset 0 0 0 100px #5bc142;
+	}
+}
+
+@keyframes fill {
+	100% {
+		-webkit-box-shadow: inset 0 0 0 100px #5bc142;
+		box-shadow: inset 0 0 0 100px #5bc142;
+	}
+}
+
+.wishful-blog-last h3 {
+	font-size: 20px;
+    margin: 30px 0 10px;
+}
+
+.wishful-blog-last p {
+	font-size: 14px;
+    margin: 0;
+}
+
+.wishful-blog-last a {
+	display: inline-block;
+	font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    border-bottom: 2px solid;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.wishful-blog-last a:after {
+	content: '\f345';
+    font: 400 16px/1 dashicons;
+    vertical-align: bottom;
+    margin-left: 3px;
+}
+
+html {
+    background: #f1f1f1;
+    margin: 0 20px;
+}
+body.wishful-blog-setup {
+	text-align: center;
+	font-size: 14px;
+    max-width: 844px;
+    margin: 65px auto 24px;
+	background: #f1f1f1;
+	color: #444;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+.wishful-blog-demos-wrap {
+	position: relative;
+}
+#wishful-blog-logo {
+    margin-bottom: 50px;
+}
+#wishful-blog-logo a {
+    display: inline-block;
+    font-size: 38px;
+    line-height: 1;
+    color: #333;
+}
+#wishful-blog-logo a .circle {
+	display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #13aff0;
+    border-radius: 50%;
+}
+ol.wishful-blog-setup-steps{
+	padding: 0 0 36px;
+    margin: 0;
+    list-style: none outside;
+    overflow: hidden;
+    color: #ccc;
+    width: 700px;
+    max-width: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+ol.wishful-blog-setup-steps li{
+	float: left;
+    width: 100%;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    color: #777;
+    border-bottom: 4px solid #ccc;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 0 0 .8em;
+    margin: 0;
+    text-align: center;
+}
+
+ol.wishful-blog-setup-steps li::before{
+	content: '';
+    border: 4px solid #ccc;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+    margin-bottom: -8px;
+    background: #fff;
+}
+
+ol.wishful-blog-setup-steps li.active{
+	border-color: #13aff0;
+    color: #13aff0;
+    font-weight: 700;
+}
+.wishful-blog-setup-steps li.done {
+    border-color: #13aff0;
+    color: #13aff0;
+}
+
+.wishful-blog-setup-steps li a{
+	color: #13aff0;
+    text-decoration: none;
+    padding: 1.5em;
+    margin: -1.5em;
+    position: relative;
+    z-index: 1;
+}
+
+ol.wishful-blog-setup-steps li.active::before {
+    border-color: #13aff0;
+}
+
+.wishful-blog-setup-steps li.done::before {
+    border-color: #13aff0;
+    background: #13aff0;
+}
+
+.wishful-blog-wrap {
+    -webkit-box-shadow: 0px 14px 29px 0px rgba(46, 50, 67, 0.10);
+    box-shadow: 0px 14px 29px 0px rgba(46, 50, 67, 0.10);
+    padding: 34px 42px 42px;
+    margin: 0 0 20px;
+    background: #fff;
+    overflow: hidden;
+    zoom: 1;
+	text-align: left;
+	position: relative;
+}
+
+.wishful-blog-welcome-wrap.wishful-blog-wrap,
+.wishful-blog-ready-wrap.wishful-blog-wrap {
+    padding: 40px 100px;
+}
+.field_group{
+	margin: 15px 0;
+}
+
+.wishful-blog-wrap .field_group label {
+    display: block;
+
+}
+.wishful-blog-wrap .field_group label input{
+	vertical-align: bottom;
+}
+.field_group p {
+    margin: 0;
+    padding-left: 21px;
+}
+
+.wishful-blog-wizard-setup-actions {
+    overflow: hidden;
+    margin: 30px 0 0;
+    position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.wishful-blog-wizard-setup-actions button,
+.wishful-blog-wizard-setup-actions a{
+	font-size: 14px;
+	font-weight: 600;
+    padding: 1em 2em;
+    min-width: auto;
+    margin: 0 8px 0 0;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+    border: 0;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+}
+.wishful-blog-wizard-setup-actions button,
+body .wishful-blog-wizard-setup-actions .continue {
+	color: #fff;
+}
+.wishful-blog-wizard-setup-actions button,
+body .wishful-blog-wizard-setup-actions .continue {
+	background-color: #13aff0;
+}
+.wishful-blog-wizard-setup-actions button:hover,
+body .wishful-blog-wizard-setup-actions .continue:hover {
+	background-color: #0b7cac;
+}
+
+.wishful-blog-wrap .theme-wrap .theme-screenshot img {
+	width: 100%;
+
+}
+.wishful-blog-wrap .theme-id-container h2 {
+	text-align: center;
+	font-size: 1.2rem !important;
+	box-shadow: none !important;
+}
+.wishful-blog-wrap .theme-wrap .theme-screenshot{
+	border: 2px solid transparent;
+}
+.wishful-blog-wrap .theme.active .theme-screenshot {
+	border-color: #13aff0;
+}
+.wishful-blog-wrap .theme.active  .theme-id-container h2.theme-name {
+	color: #13aff0;
+	background: none;
+	padding-right: 0;
+	padding-left: 0;
+	font-weight: 300;
+	box-shadow: none !important;
+	border: 0;
+}
+
+#wishful-blog-demo-plugins h2.title,
+.wishful-blog-demo-import-form-types h2.title,
+.wishful-blog-loader h2.title {
+	position: relative;
+	text-transform: uppercase;
+	padding: 25px 15px 18px;
+	margin: 0 0 20px;
+	letter-spacing: .6px;
+	text-align: center;
+	color: #42494f;
+	font-size: 15px;
+}
+
+#wishful-blog-demo-plugins h2.title:after,
+.wishful-blog-demo-import-form-types h2.title:after,
+.wishful-blog-loader h2.title:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -43px;
+	display: inline-block;
+	width: 86px;
+	height: 2px;
+	background-color: #ddd;
+}
+.wishful-blog-popup-text a {
+	color: #13aff0;
+	text-decoration: none;
+	transition: all .05s ease-in-out;
+}
+.wishful-blog-popup-text a:hover{
+	color: #00a0d2;
+}
+
+.wishful-blog-plugin button {
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ccc;
+	vertical-align: top;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wishful-blog-plugin button.disabled{
+	color: #a0a5aa!important;
+	border-color: #ddd!important;
+	background: #f7f7f7!important;
+	box-shadow: none!important;
+	text-shadow: 0 1px 0 #fff!important;
+	cursor: default;
+	-webkit-transform: none!important;
+	transform: none!important;
+}
+
+.wishful-blog-required-plugins-wrap h3 {
+	margin: 0 0 15px;
+	color: #42494f;
+}
+
+ul.wishful-blog-popup-text {
+	list-style-type: none;
+	width: 395px !important;
+}
+ul.wishful-blog-popup-text li strong {
+	color: #42494f;
+}
+#wishful-blog-demo-import-form:after,
+#wishful-blog-demo-import-form::before{
+	content: "";
+	display: table;
+	clear: both;
+}
+#wishful-blog-demo-import-form {
+    text-align: center;
+}
+#wishful-blog-demo-import-form ul.wishful-blog-popup-text {
+    text-align: left;
+}
+#wishful-blog-demo-import-form input.wishful-blog-button.wishful-blog-import,
+.wishful-blog-button.wishful-blog-plugins-pro {
+	font-size: 14px;
+    font-weight: 600;
+    padding: 1em 2em;
+    min-width: auto;
+    margin: 0 8px 0 0;
+    border-radius: 4px;
+    background-color: #13aff0;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+    border: 0;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    margin: 0;
+}
+#wishful-blog-demo-import-form input.wishful-blog-button.wishful-blog-import:hover {
+	font-size: 14px;
+    font-weight: 600;
+    padding: 1em 2em;
+    min-width: auto;
+    margin: 0 8px 0 0;
+    border-radius: 4px;
+    background-color: #13aff0;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+    border: 0;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    margin: 0;
+}
+.wishful-blog-button.wishful-blog-plugins-pro a{color: #fff;}
+.field_group.disabled {
+	opacity: .4;
+}
+.install-demos-button.disabled {
+	opacity: .4;
+	cursor: no-drop;
+}
+.theme-id-container {
+	position: static;
+}
+.theme-browser .theme .theme-actions,
+.theme-browser .theme.active .theme-actions{
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	box-shadow: none;
+	background: none;
+	top: 43%;
+}
+.wishful-blog-demo-wrap .wishful-blog-header-bar{
+	width: 100%;
+	margin: 0 0 20px;
+	padding: 0;
+}
+.wishful-blog-error p{
+	color: #ff0000;
+	text-align: center;
+	font-size: 17px;
+}
+
+.wishful-blog-customize-wrap .wishful-blog-wizard-setup-actions .skip-btn,
+.wishful-blog-demo-wrap .wishful-blog-wizard-setup-actions .skip-btn {
+	background-color: #e8e8e8;
+    color: #777;
+    margin: 0;
+}
+
+.wishful-blog-customize-wrap .wishful-blog-wizard-setup-actions .skip-btn:hover,
+.wishful-blog-demo-wrap .wishful-blog-wizard-setup-actions .skip-btn:hover {
+	background-color: #d2d2d2;
+    color: #222;
+}
+
+/* Customizer options */
+.wishful-blog-customize-wrap .field-group {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ececec;
+}
+
+.wishful-blog-customize-wrap.wishful-blog-wrap h1 {
+    margin: 0 0 6px;
+    text-transform: capitalize;
+}
+
+.wishful-blog-customize-wrap.wishful-blog-wrap p {
+	font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.wishful-blog-customize-wrap img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.wishful-blog-customize-wrap .wishful-blog-input {
+    color: #32373c;
+    border: 1px solid #ddd;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+    min-width: 250px;
+    height: 33px;
+    line-height: 18px;
+    padding: 0 12px;
+    margin: 0;
+}
+
+.wishful-blog-customize-wrap .wp-picker-container .wp-color-result.button {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0 0 40px;
+	box-shadow: inset 0 0 1px rgba(0,0,0,.5) !important;
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.5) !important;
+	border: none;
+	height: 30px;
+	border-radius: 4px;
+	margin: 0;
+}
+
+.wishful-blog-customize-wrap .wp-color-result-text {
+	background-color: rgba(0,0,0,.2);
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	box-shadow: none;
+	font-size: 12px;
+	border-radius: 0 4px 4px 0;
+	padding: 0 15px;
+}
+
+.wishful-blog-customize-wrap .wp-picker-container {
+	max-width: 255px;
+}
+
+.wishful-blog-customize-wrap .wp-picker-container .iris-picker {
+	margin: 15px 0 0 0;
+}
+
+.wishful-blog-customize-wrap .wp-picker-container,
+.wishful-blog-customize-wrap .wp-picker-input-wrap {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.wishful-blog-customize-wrap .wp-picker-open + .wp-picker-input-wrap {
+	width: 100%;
+}
+
+.wishful-blog-customize-wrap .wp-color-picker {
+    float: left;
+    width: 85%;
+    height: auto;
+    padding: 3px 5px;
+    font-size: 12px;
+    font-family: monospace;
+    line-height: 16px;
+    margin: 0;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.wishful-blog-customize-wrap .wp-picker-container .wp-picker-input-wrap > label,
+.wishful-blog-customize-wrap .wp-picker-default,
+.wishful-blog-customize-wrap .wp-picker-clear {
+	width: 48%;
+	vertical-align: bottom;
+	margin-top: 10px;
+}
+
+.wishful-blog-customize-wrap .wp-picker-default,
+.wishful-blog-customize-wrap .wp-picker-clear {
+	margin-left: 10%;
+}
+
+.wishful-blog-customize-wrap .wp-picker-input-wrap .button {
+	margin-left: 0;
+	float: right;
+}
+
+/* Ready step */
+.wishful-blog-newsletter {
+    background-color: #f5f5f5;
+    padding: 24px;
+    max-width: 450px;
+    margin: 40px auto;
+}
+.wishful-blog-newsletter p {
+    margin: 0 0 16px;
+}
+.wishful-blog-newsletter form.klaviyo_styling {
+    max-width: 100%;
+    margin: 0;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_field_group {
+    margin-bottom: 0;
+    text-align: center;
+}
+.wishful-blog-newsletter .klaviyo_styling input[type=email] {
+    width: 100%;
+    height: 42px;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.wishful-blog-newsletter .klaviyo_styling input[type=email]:focus {
+    border-color: #aaa;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_form_checkboxes {
+    margin: 10px 0;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_helptext {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_field_group label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_field_group label input {
+    width: 15px;
+    height: 15px;
+    margin: 0 6px;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_gdpr_text {
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_gdpr_text a {
+    color: #333;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_gdpr_text a:hover {
+    text-decoration: underline;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_submit_button {
+    background-color: #13aff0;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    outline: none;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_submit_button:hover {
+    background-color: #0b7cac;
+}
+.wishful-blog-newsletter .klaviyo_messages {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_messages .success_message,
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_messages .error_message {
+    margin-bottom: 0;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_messages .success_message {
+    color: #3fc351;
+}
+.wishful-blog-newsletter .klaviyo_styling .klaviyo_messages .error_message {
+    color: #fe5252;
+}
+
+.wishful-blog-ready-wrap .wishful-blog-wizard-setup-actions {
+    overflow: hidden;
+    margin: 60px 0 0;
+    text-align: center;
+}
+
+.wishful-blog-ready-wrap .wishful-blog-wizard-setup-actions a.button {
+    min-width: 150px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 12px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #555;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-transform: capitalize;
+}
+.wishful-blog-ready-wrap .wishful-blog-wizard-setup-actions a.button:hover {
+    background-color: #fafafa;
+    border-color: #999;
+}
+.wishful-blog-setup .wishful-blog-demo-wrap 
+.wishful-blog-navigation{
+    background-color: #091a29;
+     border-radius: 5px 5px 0  0px;
+}
+.wishful-blog-setup .wishful-blog-demo-wrap 
+.wishful-blog-navigation li a{
+    color: white;
+    padding:10px 15px;
+    border-bottom:2px solid transparent;
+   border-radius: 4px 4px 0  0px;
+}
+.wishful-blog-setup .wishful-blog-demo-wrap 
+.wishful-blog-navigation li.active a,
+.wishful-blog-setup .wishful-blog-demo-wrap 
+.wishful-blog-navigation li a:hover{
+    background-color: #f1f1f1;
+    transition: 0.5s ease all;
+    color:#091a29;
+    border-bottom:2px solid red
+}
+
+.wishful-blog-setup .theme-wrap .theme-screenshot{
+    margin:15px;
+     border:10px  solid #f1f1f1; 
+}
+
+.wishful-blog-setup .theme-browser .theme .theme-screenshot:after {
+    padding-top: 100%;
+}
+.wishful-blog-setup .theme-browser .theme .theme-name{
+	background-color: #091a29;
+	margin:0 15px;
+	color: white;
+}
+.wishful-blog-setup .theme-browser .theme .theme-name{
+    padding:10px 15px;
+}
+/* Responsive */
+@media screen and (max-width: 850px) {
+	.wishful-blog-demo-popup-container:before {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	.wishful-blog-demo-wrap .theme {
+		text-align: center;
+	}
+
+	.wishful-blog-demo-wrap .theme-actions {
+		position: relative;
+		display: block;
+		opacity: 1;
+	}
+
+	.wishful-blog-demo-wrap .theme-browser .theme .theme-actions .button-primary {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	.wishful-blog-demo-wrap .wishful-blog-navigation li {
+		margin: 0;
+	}
+
+	.wishful-blog-demo-wrap .wishful-blog-navigation li a {
+		padding: 15px 12px;
+	}
+
+	.wishful-blog-demo-wrap .wishful-blog-search-input {
+		display: inline-block;
+		width: 180px;
+		height: 30px;
+		margin: 0;
+		margin-top: 11px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.wishful-blog-newsletter .klaviyo_styling .klaviyo_form_actions {
+	    margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.wishful-blog-demo-wrap .theme-wrap {
+		float: none;
+		width: 100%;
+	}
+
+	.wishful-blog-ready-wrap.wishful-blog-wrap,
+	.wishful-blog-welcome-wrap.wishful-blog-wrap,
+	.wishful-blog-wrap {
+	    padding: 20px 30px;
+	}
+
+	.wishful-blog-ready-wrap.wishful-blog-wrap h1,
+	.wishful-blog-welcome-wrap.wishful-blog-wrap h1 {
+	    font-size: 32px;
+	}
+	.wishful-blog-demo-wrap .wishful-blog-navigation li{
+		float: none;
+	}
+	.wishful-blog-setup .wishful-blog-demo-wrap .wishful-blog-navigation li a{
+		text-align: left;
+	}
+}
+
+
+

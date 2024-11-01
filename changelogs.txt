@@ -1,0 +1,35 @@
+== Changelog ==
+
+= 1.1.0 = April 04, 2024 ==
+* Fixed compatibility issues with latest php versions
+
+= 1.0.8 = December 03, 2020 ==
+* Trending Mag Demo Added
+
+= 1.0.7 = July 18, 2020 ==
+* Raise Mag Demo Added
+* Advanced Importer Added
+
+= 1.0.6 = April 21, 2020 ==
+* Child & parent demo import separated
+
+= 1.0.5 = April 03, 2020 ==
+* Added child theme demo
+
+= 1.0.4 = February 19, 2020 ==
+* Fix: Demo importer
+* Add more demos
+
+= 1.0.3 = February 18, 2020 ==
+* Fix: Demo importer
+* Design updated
+
+= 1.0.2 = Jan 29, 2020 ==
+* Fix: Demo importer
+* Added more demos
+
+= 1.0.1 = Jan 5, 2020 ==
+* Sanitization and file_get_contents fixed
+
+= 1.0.0 = Jan 1, 2020 ==
+* Initial release

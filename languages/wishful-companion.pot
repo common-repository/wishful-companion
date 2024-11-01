@@ -1,0 +1,409 @@
+# Copyright (C) 2020 wishful companion
+# This file is distributed under the same license as the wishful companion package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wishful companion\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Team <wishfulthemes@gmail.com>\n"
+"Last-Translator: wishfulthemes <wishfulthemes@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://support.wishfulthemes.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../includes/notify/notify.php:62
+msgid "Leave A Review?"
+msgstr ""
+
+#: ../includes/notify/notify.php:63
+msgid "We hope you've enjoyed using %1$s theme! Would you consider leaving us a review on WordPress.org?"
+msgstr ""
+
+#: ../includes/notify/notify.php:68
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: ../includes/notify/notify.php:74
+msgid "I've already left a review"
+msgstr ""
+
+#: ../includes/notify/notify.php:80
+msgid "Maybe Later"
+msgstr ""
+
+#: ../includes/notify/notify.php:86
+msgid "Found a bug!"
+msgstr ""
+
+#: ../includes/notify/notify.php:92
+msgid "Never show again"
+msgstr ""
+
+#: ../includes/notify/notify.php:172
+msgid "Go PRO for More Features"
+msgstr ""
+
+#: ../includes/notify/notify.php:174
+msgid "Get the %1$s for more stunning elements, demos and customization options."
+msgstr ""
+
+#: ../includes/notify/notify.php:180
+msgid "Show me more"
+msgstr ""
+
+#: ../includes/notify/notify.php:186
+msgid "Hide this message"
+msgstr ""
+
+#: ../includes/panel/demos.php:94, ../includes/wizard/wizard.php:188
+msgid "There was a problem during the importing process resulting in the following error from your server:"
+msgstr ""
+
+#: ../includes/panel/demos.php:95, ../includes/wizard/wizard.php:189
+msgid "Activating"
+msgstr ""
+
+#: ../includes/panel/demos.php:96, ../includes/wizard/wizard.php:190
+msgid "Active"
+msgstr ""
+
+#: ../includes/panel/demos.php:437, ../includes/wizard/classes/WizardAjax.php:44
+msgid "Import the %1$s demo"
+msgstr ""
+
+#: ../includes/panel/demos.php:444, ../includes/wizard/classes/WizardAjax.php:51
+msgid "Importing demo data allow you to quickly edit everything instead of creating content from scratch. It is recommended uploading sample data on a fresh WordPress install to prevent conflicts with your current content. You can use this plugin to reset your site if needed: %1$sWordpress Database Reset%2$s."
+msgstr ""
+
+#: ../includes/panel/demos.php:451, ../includes/wizard/classes/WizardAjax.php:56
+msgid "Required Plugins"
+msgstr ""
+
+#: ../includes/panel/demos.php:452, ../includes/wizard/classes/WizardAjax.php:57
+msgid "For your site to look exactly like this demo, the plugins below need to be activated."
+msgstr ""
+
+#: ../includes/panel/demos.php:465, ../includes/wizard/classes/WizardAjax.php:109
+msgid "Install and activate Wishful Blog PRO"
+msgstr ""
+
+#: ../includes/panel/demos.php:471, ../includes/wizard/classes/WizardAjax.php:115
+msgid "Activate Wishful Blog PRO license"
+msgstr ""
+
+#: ../includes/panel/demos.php:477
+msgid "Go to the next step"
+msgstr ""
+
+#: ../includes/panel/demos.php:491, ../includes/wizard/classes/WizardAjax.php:77
+msgid "Select what you want to import:"
+msgstr ""
+
+#: ../includes/panel/demos.php:497, ../includes/wizard/classes/WizardAjax.php:83
+msgid "Import XML Data"
+msgstr ""
+
+#: ../includes/panel/demos.php:497, ../includes/wizard/classes/WizardAjax.php:83
+msgid "pages, posts, images, menus, etc..."
+msgstr ""
+
+#: ../includes/panel/demos.php:504, ../includes/wizard/classes/WizardAjax.php:90
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: ../includes/panel/demos.php:511, ../includes/wizard/classes/WizardAjax.php:97
+msgid "Import Widgets"
+msgstr ""
+
+#: ../includes/panel/demos.php:519
+msgid "Install this demo"
+msgstr ""
+
+#: ../includes/panel/demos.php:524, ../includes/wizard/classes/WizardAjax.php:125
+msgid "The import process could take some time, please be patient"
+msgstr ""
+
+#: ../includes/panel/demos.php:530, ../includes/wizard/classes/WizardAjax.php:131
+msgid "Demo Imported!"
+msgstr ""
+
+#: ../includes/panel/demos.php:531
+msgid "See the result"
+msgstr ""
+
+#: ../includes/panel/demos.php:558, ../includes/panel/assets/class-plugin-installer.php:67, ../includes/panel/assets/class-plugin-installer.php:147, ../includes/panel/assets/class-plugin-installer.php:504
+msgid "Activate"
+msgstr ""
+
+#: ../includes/panel/demos.php:564, ../includes/panel/assets/class-plugin-installer.php:34, ../includes/panel/assets/class-plugin-installer.php:503
+msgid "Install Now"
+msgstr ""
+
+#: ../includes/panel/demos.php:569, ../includes/panel/assets/class-plugin-installer.php:63, ../includes/panel/assets/class-plugin-installer.php:143, ../includes/panel/assets/class-plugin-installer.php:505
+msgid "Activated"
+msgstr ""
+
+#: ../includes/panel/demos.php:580
+msgid "Get This Addon"
+msgstr ""
+
+#: ../includes/panel/demos.php:602
+msgid "No plugin specified"
+msgstr ""
+
+#: ../includes/panel/demos.php:622
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: ../includes/panel/demos.php:644
+msgid "Importing XML Data"
+msgstr ""
+
+#: ../includes/panel/demos.php:650
+msgid "Importing Customizer Settings"
+msgstr ""
+
+#: ../includes/panel/demos.php:656
+msgid "Importing Widgets"
+msgstr ""
+
+#: ../includes/panel/demos.php:1205
+msgid "Can not retrieve sample data xml file. The server may be down at the moment please try again later. If you still have issues contact the theme developer for assistance."
+msgstr ""
+
+#: ../includes/panel/demos.php:1220
+msgid "The xml import file could not be accessed. Please try again or contact the theme developer."
+msgstr ""
+
+#: ../includes/panel/demos.php:1256
+msgid "Can not retrieve class-wp-importer.php"
+msgstr ""
+
+#: ../includes/panel/demos.php:1266
+msgid "Can not retrieve wordpress-importer.php"
+msgstr ""
+
+#: ../includes/panel/demos.php:1277
+msgid "Sample data file appears corrupt or can not be accessed."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:120
+msgid "Are you ready to create an amazing website?"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:123, ../includes/panel/classes/class-install-demos.php:61
+msgid "Run the Setup Wizard"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:125
+msgid "Skip setup"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:155
+msgid "Welcome"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:159
+msgid "Choosing Demo"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:163
+msgid "Customize"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:167
+msgid "Ready"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:205
+msgid "WishfulThemes &rsaquo; Setup Wizard"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:394
+msgid "Setup Wizard"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:395
+msgid "Welcome!"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:399
+msgid "Thank you for choosing Wishful Blog theme, in this quick setup wizard we'll take you through the 2 essential steps for you to get started building your dream website. Make sure to go through it to the end."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:402
+msgid "Get started"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:406
+msgid "Skip Setup Wizard"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:431
+msgid "Selecting your demo template"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:434
+msgid "Clicking %1$sLive Preview%2$s will open the demo in a new window for you to decide which template to use. Then %1$sSelect%2$s the demo you want and click %1$sInstall Demo%2$s in the bottom."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:446, ../includes/panel/classes/class-install-demos.php:79
+msgid "All"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:488, ../includes/panel/classes/class-install-demos.php:121
+msgid "Live Preview"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:489
+msgid "Select"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:502
+msgid "Install Demo"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:504, ../includes/wizard/wizard.php:625
+msgid "Skip Step"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:512
+msgid "Next Step"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:554
+msgid "Logo"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:555
+msgid "Please add your logo below."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:563, ../includes/wizard/wizard.php:611
+msgid "Upload"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:573
+msgid "Site Title"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:574
+msgid "Please add your Site Title below."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:580
+msgid "Tagline"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:581
+msgid "Please add your Tagline below."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:602
+msgid "Site Icon"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:603
+msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here! Site Icons should be square and at least 512 × 512 pixels."
+msgstr ""
+
+#: ../includes/wizard/wizard.php:622
+msgid "Continue"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:669
+msgid "Hooray!"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:670
+msgid "Your website is ready"
+msgstr ""
+
+#: ../includes/wizard/wizard.php:677
+msgid "View Your Website"
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:95, ../includes/panel/assets/class-plugin-installer.php:201
+msgid "By"
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:103, ../includes/panel/assets/class-plugin-installer.php:236
+msgid "More Details"
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:225
+msgid "Get This Plugin"
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:242
+msgid "Premium"
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:258
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:268, ../includes/panel/assets/class-plugin-installer.php:338, ../includes/panel/assets/class-plugin-installer.php:409
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:326, ../includes/panel/assets/class-plugin-installer.php:397
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: ../includes/panel/assets/class-plugin-installer.php:502
+msgid "Are you sure you want to install this plugin?"
+msgstr ""
+
+#: ../includes/panel/classes/class-install-demos.php:32, ../includes/panel/classes/class-install-demos.php:36, ../includes/panel/classes/class-install-demos.php:57
+msgid "Install Demos"
+msgstr ""
+
+#: ../includes/panel/classes/class-install-demos.php:61
+msgid "Are you ready to create an amazing website? "
+msgstr ""
+
+#: ../includes/panel/classes/class-install-demos.php:86
+msgid "Search demos..."
+msgstr ""
+
+#: ../includes/panel/classes/class-install-demos.php:112
+msgid "PRO"
+msgstr ""
+
+#: ../includes/wizard/classes/WizardAjax.php:119
+msgid "Import"
+msgstr ""
+
+#: ../includes/wizard/classes/WizardAjax.php:134
+msgid "The import didn't import well please contact the support."
+msgstr ""
+
+#: ../includes/panel/classes/importers/class-widget-importer.php:84
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: ../includes/panel/classes/importers/class-widget-importer.php:106
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../includes/panel/classes/importers/class-widget-importer.php:127
+msgid "Widget already exists"
+msgstr ""
+
+#: ../includes/panel/classes/importers/class-widget-importer.php:185
+msgid "Imported"
+msgstr ""
+
+#: ../includes/panel/classes/importers/class-widget-importer.php:189
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../includes/panel/classes/importers/class-widget-importer.php:195
+msgid "No Title"
+msgstr ""
